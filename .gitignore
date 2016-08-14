@@ -5,3 +5,4 @@
 deps/
 known_devices.yaml
 secrets.yaml
+telldus_keys.txt
