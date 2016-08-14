@@ -1,0 +1,29 @@
+homeassistant:
+  name:        !env_var HA_HOME_NAME
+  latitude:    !env_var HA_HOME_LATITUDE
+  longitude:   !env_var HA_HOME_LONGITUDE
+  elevation:   !env_var HA_HOME_ELEVATION
+  unit_system: metric
+  time_zone:   Europe/Stockholm
+  customize:   !include customize.yaml
+
+logbook:
+history:
+updater:
+frontend:
+sun:
+discovery:
+
+sensor:       !include sensor.yaml
+tellduslive:  !include telldus_live.yaml
+tellstick:    !include tellstick.yaml
+media_player: !include media_player.yaml
+automation:   !include automation.yaml
+weblink:      !include weblink.yaml
+scene:        !include scenes.yaml
+
+#introduction:
+#conversation:
+#group:          !include groups.yaml
+#device_tracker: !include device_tracker.yaml
+#notify:         !include notify.yaml
