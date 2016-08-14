@@ -1,4 +1,4 @@
 entities:
   - name: Klumpen
-    url:  !env_var HA_HOME_DISKSTATION_URL
+    url:  !secret HA_HOME_DISKSTATION_URL
     icon: mdi:harddisk

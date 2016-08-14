@@ -1,8 +1,8 @@
 homeassistant:
-  name:        !env_var HA_HOME_NAME
-  latitude:    !env_var HA_HOME_LATITUDE
-  longitude:   !env_var HA_HOME_LONGITUDE
-  elevation:   !env_var HA_HOME_ELEVATION
+  name:        !secret HA_HOME_NAME
+  latitude:    !secret HA_HOME_LATITUDE
+  longitude:   !secret HA_HOME_LONGITUDE
+  elevation:   !secret HA_HOME_ELEVATION
   unit_system: metric
   time_zone:   Europe/Stockholm
   customize:   !include customize.yaml

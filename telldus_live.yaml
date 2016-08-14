@@ -1,4 +1,4 @@
-public_key:   !env_var HA_HOME_TELLDUS_PUBLIC_KEY
-private_key:  !env_var HA_HOME_TELLDUS_PRIVATE_KEY
-token:        !env_var HA_HOME_TELLDUS_TOKEN
-token_secret: !env_var HA_HOME_TELLDUS_TOKEN_SECRET
+public_key:   !secret HA_HOME_TELLDUS_PUBLIC_KEY
+private_key:  !secret HA_HOME_TELLDUS_PRIVATE_KEY
+token:        !secret HA_HOME_TELLDUS_TOKEN
+token_secret: !secret HA_HOME_TELLDUS_TOKEN_SECRET
