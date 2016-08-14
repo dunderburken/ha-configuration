@@ -1,0 +1,40 @@
+  sun.sun:
+    friendly_name: Solen
+
+  # Tellstick
+
+  switch.tellstick_switch_001:
+    friendly_name: Lampa 1
+    icon: mdi:lightbulb
+    assumed_state: false
+  switch.tellstick_switch_002:
+    friendly_name: Köket
+    icon: mdi:lightbulb
+    assumed_state: false
+  switch.tellstick_switch_003:
+    friendly_name: Fönstret nere
+    icon: mdi:lightbulb
+    assumed_state: false
+
+  # Telldus Live
+
+  switch.telldus_dimmer_001:
+    friendly_name: Dimmer 1
+    icon: mdi:auto-fix
+    assumed_state: false
+  switch.telldus_switch_001:
+    friendly_name: Lampa 4
+    icon: mdi:lightbulb
+    assumed_state: false
+  switch.telldus_switch_002:
+    friendly_name: Lampa 5
+    icon: mdi:lightbulb
+    assumed_state: false
+  switch.telldus_switch_003:
+    friendly_name: Motorvärmare
+    icon: mdi:car
+    assumed_state: false
+  switch.telldus_door_001:
+    friendly_name: Dörren
+    icon: mdi:bell
+    assumed_state: false

@@ -1,0 +1,6 @@
+- name: Kvällsbelysning
+  entities:
+    switch.tellstick_switch_002:
+      state: on
+    switch.tellstick_switch_003:
+      state: on

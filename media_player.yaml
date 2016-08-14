@@ -1,0 +1,3 @@
+platform: webostv
+host:     !env_var HA_HOME_LGTVIP
+name:     Living Room TV

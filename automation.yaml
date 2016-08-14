@@ -1,0 +1,20 @@
+- alias: Tänd vid solnedgång
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-00:15:00"
+  action:
+    service: homeassistant.turn_on
+    entity_id:
+      - switch.tellstick_switch_002
+      - switch.tellstick_switch_003
+
+- alias: Släck för natten
+  trigger:
+    - platform: time
+      after: "23:00"
+  action:
+    service: homeassistant.turn_off
+    entity_id:
+      - switch.tellstick_switch_002
+      - switch.tellstick_switch_003
