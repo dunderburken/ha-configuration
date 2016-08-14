@@ -1,0 +1,5 @@
+*.db
+*.db_journal
+*.log
+deps/
+known_devices.yaml

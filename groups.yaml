@@ -1,0 +1,25 @@
+default_view:
+  view: yes
+  entities:
+    - sun.sun
+    - sensor.yr_symbol
+    - sensor.inne_humidity
+    - sensor.inne_temperature
+    - sensor.ute_temperature
+    - switch.tellstick_switch_001
+    - switch.tellstick_switch_002
+    - switch.tellstick_switch_003
+    - switch.telldus_switch_001
+    - switch.telldus_switch_002
+    - switch.telldus_switch_003
+    - switch.telldus_door_001
+    - media_player.lg_webos_tv_remote
+
+penthouse:
+  view: yes
+  name: Loftet
+  entities:
+    - sensor.inne_humidity
+    - sensor.inne_temperature
+    - sensor.ute_temperature
+    - weblink.router

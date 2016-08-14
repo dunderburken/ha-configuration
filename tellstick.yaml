@@ -1,0 +1,9 @@
+signal_repetitions: 2
+
+# TellStick Light
+#light:
+#  platform: tellstick
+
+# TellStick Switch
+#switch:
+#  platform: tellstick
