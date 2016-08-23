@@ -1,6 +1,14 @@
   sun.sun:
     friendly_name: Solen
 
+  # Yr
+  sensor.yr_wind_speed:
+    friendly_name: Vind
+  sensor.yr_symbol:
+    friendly_name: Väder
+  sensor.yr_temperature:
+    friendly_name: Yr
+
   # Tellstick
 
   switch.tellstick_switch_001:
@@ -38,3 +46,9 @@
     friendly_name: Dörren
     icon: mdi:bell
     assumed_state: false
+  sensor.sensor007_temperature:
+    friendly_name: Ute
+  sensor.sensor008_humidity:
+    friendly_name: Fukt
+  sensor.sensor008_temperature:
+    friendly_name: Inne
