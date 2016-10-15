@@ -10,6 +10,8 @@
 pi@pi2:~ $ cat .bash_aliases 
 alias ha-logging='sudo journalctl --no-full -o cat -f -u home-assistant@pi'
 alias ha-restart='sudo systemctl restart home-assistant@pi'
+alias ha-update='sudo pip3 install --upgrade homeassistant'
+alias ha-tellstick-restart='sudo /etc/init.d/telldusd restart'
 ```
 
 # Home Assistant as Service
