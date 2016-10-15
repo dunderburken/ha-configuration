@@ -42,13 +42,35 @@
     friendly_name: Motorvärmare
     icon: mdi:car
     assumed_state: false
+  switch.telldus_switch_004:
+    friendly_name: Fönstret TV
+    icon: mdi:lightbulb
+    assumed_state: false
+  switch.telldus_switch_005:
+    friendly_name: Soffan nere
+    icon: mdi:lightbulb
+    assumed_state: false
+  switch.telldus_switch_006:
+    friendly_name: Uppe
+    icon: mdi:lightbulb
+    assumed_state: false
   switch.telldus_door_001:
     friendly_name: Dörren
     icon: mdi:bell
     assumed_state: false
+  switch.telldus_door_002:
+    friendly_name: Dörren uppe (framsida)
+    icon: mdi:bell
+    assumed_state: false
   sensor.sensor007_temperature:
-    friendly_name: Ute
+    friendly_name: Ute (nere)
   sensor.sensor008_humidity:
-    friendly_name: Fukt
+    friendly_name: Köket (fukt)
   sensor.sensor008_temperature:
-    friendly_name: Inne
+    friendly_name: Köket (temp)
+  sensor.sensor012_temperature:
+    friendly_name: Ute (uppe)
+  sensor.sensor013_humidity:
+    friendly_name: Uppe (fukt)
+  sensor.sensor013_temperature:
+    friendly_name: Uppe (temp)
