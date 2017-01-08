@@ -1,7 +1,19 @@
 # Telldus
 
 ```
+apt list --installed | grep telldus
+
+sudo nano /etc/apt/sources.list
+
+deb http://download.telldus.com/debian/ stable main
+
+sudo apt-get update
+
+sudo apt-get install telldus-core
+
 § sudo /etc/init.d/telldusd restart
+
+sudo -u homeassistant bash
 ```
 
 # Aliases
