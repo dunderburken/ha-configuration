@@ -1,3 +1,31 @@
+# Upgrading
+
+```
+sudo su -s /bin/bash homeassistant
+
+source /srv/homeassistant/homeassistant_venv/bin/activate
+
+pip3 install --upgrade homeassistant
+
+sudo systemctl restart home-assistant.service
+```
+
+# Mounting SSH on Mac
+
+Install FUSE & SSHFS
+
+```
+sshfs pi@server-address:/server-path /Users/a-user/mount/pi/ -ovolname=GIVE-DISK-A-NAME
+
+sudo umount /mnt/droplet
+```
+
+# Adding Write Permissions
+
+```
+sudo chmod g+w .homeassistant/
+```
+
 # Telldus
 
 ```

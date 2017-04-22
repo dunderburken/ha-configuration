@@ -21,8 +21,10 @@ media_player: !include media_player.yaml
 automation:   !include automation.yaml
 weblink:      !include weblink.yaml
 scene:        !include scenes.yaml
-ifttt:        !include ifttt.yaml
+#ifttt:        !include ifttt.yaml
 
+
+# DISABLED
 #introduction:
 #conversation:
 #group:          !include groups.yaml
